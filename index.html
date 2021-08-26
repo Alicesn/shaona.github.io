@@ -190,40 +190,38 @@
     </p>
 
         <h4><li><strong>System Development for Closed-loop Control of Myoelectric Prosthetic Hand</strong></li></h4>
-        <img style="width:60%;" src="images/loop1.PNG">&nbsp&nbsp <img style="width:60%;" src="images/graspvideo.gif"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://github.com/huawei-noah/AdderNet">Project Page</a> | <a style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
-        </p>
-        <p class="w3-justify">
-      alice describe:  I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
-        </p> 
+	    <p class="w3-justify">
+        	In this project, a closed-loop system is designed to improve the grasping control performance of a prosthetic hand,  in which user-friendly devices were designed respectively based on modular concept, involving fingertip-wearable sensor module, EMG signal's process module, feedback module based on electro-tactile stimulation, etc. Besides, the artifacts of electrical stimulation from contaminated EMG signals were removed by using a bandpass filter and a cascade notch filter. 
 
-        <h4><li>alice-project2</li></h4>
-        <img style="width:70%;" src="images/wristband.png"> 
-     <!--   <p class="w3-justify">
-        <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC) 2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
-        </p>  -->
+        </p>	
+        <img style="width:60%;" src="images/loop1.PNG"> 
         <p class="w3-justify">
-        alice describe:The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
-        </p> 
-
-        <h4><li>alice-project3</li></h4>
-        <img style="width:90%;" src="images/robot.PNG"> 
- <!--       <a style="color: #447ec9" href="https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html">Huawei Developer Conference (HDC) 2020</a> | <a style="color: #447ec9" href="https://developer.huaweicloud.com/exhibition/Atlas_neural_style.html">Online Demo</a>
-  
-	    </p>
--->
-        <p class="w3-justify">
-        alice describe:This project aims to develop a video style transfer system on the <strong>Huawei Atlas 200 DK AI developer Kit</strong>. The latency of the original model for processing one image is about <span style="color:red">630ms</span>. After accelerating it using our method, the lantency now is about <span style="color:red">40ms</span>. 
-        </p>  
-       <h4><li>alice-project4</li></h4>
-        <img style="width:70%;" src="images/fes.png"> &nbsp&nbsp <img style="width:60%;" src="images/handvideo.gif"> 
-     <!--   <p class="w3-justify">
-        <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC) 2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
-        </p>  -->
-        <p class="w3-justify">
-        alice describe:The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
+        Based on the system, two experiemnts on four amputees were conducted to evaluate feasibility as well as the contribution of electro-tactile stimulation feedback to grasping performance of the prosthetic hand. 
         </p>
+         <img style="width:25%;" src="images/1orangevideo.gif">&nbsp&nbsp <img style="width:25%;" src="images/1paperbottle.gif"> &nbsp&nbsp <img style="width:40%;" src="images/graspvideo.gif">
+
+        <h4><li>A Wearable Armband named "iFeel" for Electro-tactile Stimulation</li></h4>
+        
+           <p class="w3-justify">
+        	In this project, a portable and lightweight armband for electro-tactile stimulation was designed, including a lightweight and custom-designed stimulator and five-pairs electrodes made of flexbile printed circuits board. Different from other commercial stimulator, the "iFeel" achieved wearability with portable characteristics, and enabled multiplexing function to render kinds of stimulation to generate haptic feelings.
+	
+        </p> 
+		<img style="width:70%;" src="images/armband.PNG"> 
+		<p class="w3-justify">
+        Two experiments including position discrimination and frequency discrimination were conducted and results showed a high accuracy of position discrimination (success rate > 90%) and frequency levels discrimination (success rate> 90%), indicating that the sensory substitute feedback has the potential to be applied for feedback to achieve more information with high resolution and accuracy.
+
+        <h4><li>Design of an Intelligent Dining Table Robot</li></h4>
+        
+      <p class="w3-justify">
+	  Creatively designed an intelligent robot that could grasp plates automatically for dining table after brainstorm with team, where I designed the electrical control systems for mechanical arms. The mechanical arms are setup in the bottom of the robotic table, and when robot begins to work, the arms turn to the top of the table to move for grasping or dropping plates. And when there is no task for grasping or dropping plates, the robot arms then go back to the bottom of the table.
+	  </p>  
+      <img style="width:90%;" src="images/robot.PNG"> 
+       <h4><li>System Development for Hand Rehabilitation</li></h4>
+        
+        <p class="w3-justify">
+        	The system is used to explore more feedback information like hand gestures as proprioception, and is also applied to hand rehanbilitation. In the project, a stimulator was designed based on functional electrical stimulation (FES),  and combined with developed skin-attachable flexible PCB with high-density electrodes, the stimulator can achieve accurate finger’s movement by FES. Besides, a glove-like sensor was designed to capture movement from a master finger so that the relative slave finger can passively move through FES following the master finger's movement. The system can contribute to the hand rehabilition!
+        </P>
+       <img style="width:70%;" src="images/handvideo.gif"> 
   </div>
   
   <!-- The Talks Section -->
